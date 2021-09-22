@@ -20,6 +20,7 @@ int main()
     int argvector[3] = {0, 1, 0};
     int i = 0;
     int n = 0;
+    cout << "Digite a posicao da serie que deseja parar: \n";
     cin >> n;
     fibo(argvector, i, n);
     return 0;
